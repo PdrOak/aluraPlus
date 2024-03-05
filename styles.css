@@ -94,3 +94,44 @@ body {
     font-weight: 300;
 }
 
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 5em 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco-primario);
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-primario);
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer__nav{
+  
+}
+
+.footer__lista li{
+    display: inline;
+    justify-content: center;
+    list-style: none;
+    margin: 5em 0;
+    position: relative;
+}
