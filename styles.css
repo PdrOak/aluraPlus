@@ -120,18 +120,39 @@ body {
     color: var(--branco-primario);
 }
 
-.footer {
+.footer{
     text-align: center;
+    
 }
 
-.footer__nav{
-  
+.footer__lista{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 5em 0;  
 }
 
 .footer__lista li{
-    display: inline;
-    justify-content: center;
-    list-style: none;
-    margin: 5em 0;
-    position: relative;
+    padding: 0 16px;
 }
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-primario);
+
+}
+
+.lista__link a:hover{
+    color: var(--botao-azul);
+}
+
+.lista__link a:active{
+    color: chartreuse;
+}
+
+.footer__texto {
+    color: var(--cinza-secundario);
+    margin: 5em 0;
+    font-size: 14px;
+}
+
